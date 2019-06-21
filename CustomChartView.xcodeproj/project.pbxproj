@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04C67DA522BCDE7500023212 /* CylindricalShellCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C67DA122BCDE7500023212 /* CylindricalShellCell.m */; };
+		04C67DA622BCDE7500023212 /* XLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C67DA222BCDE7500023212 /* XLabelCell.m */; };
+		04C67DA722BCDE7500023212 /* JChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C67DA322BCDE7500023212 /* JChartView.m */; };
 		5A60BF5B223253D700C1B3CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A60BF5A223253D700C1B3CF /* AppDelegate.m */; };
 		5A60BF5E223253D700C1B3CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A60BF5D223253D700C1B3CF /* ViewController.m */; };
 		5A60BF61223253D700C1B3CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A60BF5F223253D700C1B3CF /* Main.storyboard */; };
@@ -16,6 +19,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04C67D9F22BCDE7500023212 /* JChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JChartView.h; sourceTree = "<group>"; };
+		04C67DA022BCDE7500023212 /* XLabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLabelCell.h; sourceTree = "<group>"; };
+		04C67DA122BCDE7500023212 /* CylindricalShellCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CylindricalShellCell.m; sourceTree = "<group>"; };
+		04C67DA222BCDE7500023212 /* XLabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLabelCell.m; sourceTree = "<group>"; };
+		04C67DA322BCDE7500023212 /* JChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JChartView.m; sourceTree = "<group>"; };
+		04C67DA422BCDE7500023212 /* CylindricalShellCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CylindricalShellCell.h; sourceTree = "<group>"; };
 		5A60BF56223253D700C1B3CF /* CustomChartView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomChartView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A60BF59223253D700C1B3CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5A60BF5A223253D700C1B3CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,6 +48,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04C67D9E22BCDE7500023212 /* ChartView */ = {
+			isa = PBXGroup;
+			children = (
+				04C67D9F22BCDE7500023212 /* JChartView.h */,
+				04C67DA022BCDE7500023212 /* XLabelCell.h */,
+				04C67DA122BCDE7500023212 /* CylindricalShellCell.m */,
+				04C67DA222BCDE7500023212 /* XLabelCell.m */,
+				04C67DA322BCDE7500023212 /* JChartView.m */,
+				04C67DA422BCDE7500023212 /* CylindricalShellCell.h */,
+			);
+			path = ChartView;
+			sourceTree = "<group>";
+		};
 		5A60BF4D223253D700C1B3CF = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +80,7 @@
 		5A60BF58223253D700C1B3CF /* CustomChartView */ = {
 			isa = PBXGroup;
 			children = (
+				04C67D9E22BCDE7500023212 /* ChartView */,
 				5A60BF59223253D700C1B3CF /* AppDelegate.h */,
 				5A60BF5A223253D700C1B3CF /* AppDelegate.m */,
 				5A60BF5C223253D700C1B3CF /* ViewController.h */,
@@ -142,8 +165,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A60BF5E223253D700C1B3CF /* ViewController.m in Sources */,
+				04C67DA622BCDE7500023212 /* XLabelCell.m in Sources */,
+				04C67DA722BCDE7500023212 /* JChartView.m in Sources */,
 				5A60BF69223253D900C1B3CF /* main.m in Sources */,
 				5A60BF5B223253D700C1B3CF /* AppDelegate.m in Sources */,
+				04C67DA522BCDE7500023212 /* CylindricalShellCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

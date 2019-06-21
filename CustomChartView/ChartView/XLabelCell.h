@@ -11,6 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface XLabelCell : UITableViewCell
+@property (nonatomic ,strong) UILabel* valueLabel;//值label
 
 @end
 
