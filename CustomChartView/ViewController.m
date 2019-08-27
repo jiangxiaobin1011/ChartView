@@ -37,6 +37,8 @@
     chartView.lineChartDataArray = @[@"30",@"70",@"20",@"50",@"80",@"22",@"33",@"66",@"11",@"33",@"44",@"77",];
     [self.view addSubview:chartView];
     
+    
+    //在这里我做了一个测试
     // Do any additional setup after loading the view, typically from a nib.
 }
 
